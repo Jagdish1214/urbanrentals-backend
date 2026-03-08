@@ -19,7 +19,7 @@ import com.example.demo.Entity.Users;
 import com.example.demo.Service.userService;
 
 import jakarta.servlet.http.HttpSession;
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/user")
 public class UserController {
